@@ -1,0 +1,560 @@
+/*=============================
+ * common css
+ =============================*/
+ * {
+    box-sizing: border-box;
+}
+
+* body {
+    color: #666666;
+    font-family: Georgia, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 96%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, sans-serif;
+}
+
+p {
+    color: #999;
+}
+
+/*=============================
+ * top header css
+ =============================*/
+#header-section {
+    background: #ebebeb;
+    padding-bottom: 85px;
+    position: relative;
+}
+
+.top_header_area {
+    background: #fff;
+    border-bottom: 2px solid #cba2af;
+    padding: 8px 0;
+    width: 100%;
+}
+
+/* social area css */
+.social_area {
+    float: left;
+    width: 50%;
+}
+
+.social_area ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+
+}
+
+.social_area li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social_area li a {
+    display: block;
+}
+
+.social_area li a i {
+    background-color: #d2d2d2;
+    border-radius: 50%;
+    display: block;
+    width: 32px;
+    height: 32px;
+    color: white;
+    padding-top: 9px;
+    text-align: center;
+}
+
+.social_area li a:hover i.fa-linkedin {
+    background: #0678B6;
+}
+
+.social_area li a:hover i.fa-twitter {
+    background: #37B1E1;
+}
+
+.social_area li a:hover i.fa-pinterest {
+    background: #E83F3A;
+}
+
+.social_area li a:hover i.fa-google-plus-g {
+    background: #E83F3A;
+}
+
+.social_area li a:hover i.fa-rss {
+    background: #ee802f;
+}
+
+/* mini menu css */
+.inner_top_header {
+    overflow: hidden;
+    padding: 0;
+}
+
+.mini_menu {
+    padding-top: 5px;
+    float: right;
+    width: 50%;
+}
+
+.mini_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.mini_menu ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+
+.mini_menu ul li::after {
+    background: #97455f;
+    content: "";
+    position: absolute;
+    top: 6px;
+    right: -7px;
+    height: 12px;
+    width: 1px;
+}
+
+.mini_menu ul li:last-child:after {
+    display: none;
+}
+
+.mini_menu ul li a {
+    color: #97455f;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.mini_menu ul li a:hover {
+    color: black;
+}
+
+/*=============================
+ * LOGO & SEARCH CSS
+ =============================*/
+#main-header {
+    width: 100%;
+    clear: both;
+}
+
+.inner-main {
+    padding: 0;
+    overflow: hidden;
+}
+
+.d-flex {
+    max-height: 35px;
+    width: 294px;
+}
+
+.form-control {
+    border-radius: 5px 0 0 5px;
+}
+
+
+
+.container-fluid {
+    padding: 0;
+    margin: 50px 0;
+}
+
+.btn-role {
+    border-radius: 0 5px 5px 0;
+    padding-top: 3px;
+  }
+.btn:hover {
+    background-color: #green;
+    color: black;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 2px rgba(13, 110, 253, .25);
+}
+
+/*=============================
+ * NAVIGATION SECTION CSS
+ =============================*/
+#navigation-section {
+    width: 100%;
+    clear: both;
+}
+
+.inner-navigation {
+    overflow: hidden;
+    padding: 0;
+    background: #97455f;
+    border-radius: 5px 5px 0 0;
+}
+
+.nav-bar {
+    overflow: hidden;
+}
+
+.nav-bar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+
+.nav-bar ul li:hover,
+.nav-bar ul .active {
+    text-decoration: none;
+    background: #6a3144;
+}
+
+/*=============================
+ * SLIDER SECTION CSS
+ =============================*/
+#sliderArea {
+    width: 100%;
+    clear: both;
+    height: 386px;
+    overflow: hidden;
+}
+
+.innerSlider {
+    padding: 30px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 263px;
+    transform: translateX(-50%);
+    background: white;
+    padding-bottom: 90px;
+}
+
+.d-block.w-100 {
+    height: 350px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    background-color: black;
+    background-clip: unset;
+    border: 3px solid black;
+    opacity: 100%;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    margin-bottom: -40px;
+}
+
+.carousel-indicators [data-bs-target]:focus {
+    background-color: white;
+}
+
+.carousel-caption.d-none.d-md-block {
+    width: 460px;
+    transform: translate(-8%, -20%);
+    background: white;
+    color: black;
+    padding: 15px 25px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    left: unset;
+  }
+
+
+.carousel-caption.d-none.d-md-block h5 {
+    color: #383838;
+    font-size: 36px;
+}
+
+/*=============================
+ * SLIDER SECTION CSS
+ =============================*/
+#title-section {
+    width: 100%;
+    clear: both;
+    position: relative;
+}
+
+.inner-title {
+    overflow: hidden;
+    padding: 0;
+}
+
+.title-wrapper {
+    margin: 0 30px;
+    border-top: 5px solid #ddd;
+}
+
+.child-title {
+    padding: 35px 0 55px 0;
+    column-count: 3;
+}
+
+.title-caption {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 0 10px;
+}
+
+.title-details {
+    width: 100%;
+    overflow: hidden;
+}
+
+.title-description {
+    display: flex;
+}
+
+.title-description img {
+    width: 65px;
+    height: 65px;
+}
+
+.desc-text {
+    margin-left: 10px;
+}
+
+.desc-text h6 {}
+
+.desc-text p {
+    line-height: 1.3;
+    margin-top: unset;
+}
+
+.title-role {
+    margin-bottom: 35px;
+}
+
+/*=============================
+ * 2ND TITLE SECTION CSS
+ =============================*/
+#second-title {
+    width: 100%;
+    clear: both;
+    position: relative;
+    border-bottom: 5px solid #ddd;
+}
+
+.inner-second {
+    padding: 0;
+    padding-bottom: 50px;
+
+}
+
+.wrapper {
+    display: flex;
+}
+
+.second-wrapper {
+    width: 50%;
+    text-align: start;
+    position: relative;
+}
+
+.second-child {
+    padding: 34px 0 45px 0;
+}
+
+.second-left-caption {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translate(50%, -60%);
+    z-index: 999;
+    background: white;
+    padding: 0 10px;
+}
+
+.child-desc {
+    display: flex;
+}
+
+.child-desc img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.title-text a {
+    color: #97455f;
+}
+
+.title-text p {
+    margin-bottom: 10px;
+}
+
+.second-bottom {
+    background: #97455f;
+    color: white;
+}
+
+.second-bottom {
+    background: #97455f;
+    color: white;
+    border-radius: 10px;
+    padding: 18px 26px;
+    overflow: hidden;
+}
+
+.bottom-text {
+    float: left;
+    width: 65%;
+  }
+
+.bottom-text h1 {
+    font-size: 36px;
+}
+
+.bottom-text h5 {
+    font-size: 18px;
+}
+
+.second-bottom button {
+    background: white;
+    color: #97455f;
+    padding: 20px 10px;
+    font-size: 25px;
+    border: none;
+    margin-top: 12px;
+    float: right;
+    border-radius: 10px;
+    width: 35%;
+}
+
+/*=============================
+ * DETAILS SECTION CSS
+ =============================*/
+ #details-section{
+    background-color: background-color: #ebebeb;;
+ }
+ 
+ .inner-details {
+    display: flex;
+    padding: 40px 0;
+  }
+  .left-child-details {
+    width: 50%;
+  }
+ .details-img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #c8c6c6
+  }
+
+  .details-img img {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+  }
+
+  .details-caption {
+    margin-bottom: 25px;
+  }
+
+  .details-caption h5 {
+    font-size: 18px;
+  }
+  .role-info h5 {
+    font-size: 16px;
+  }
+
+  .details-info {
+    max-height: unset;
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+  }
+
+  .role-info {
+    margin-left: 22px;
+    margin-top: 3px;
+  }
+
+  .right-child-details {
+    width: 50%;
+    display: flex;
+  }
+
+  .right-part {
+    width: 100%;
+  }
+
+  /*=============================
+ * DETAILS SECTION CSS
+ =============================*/
+
+ #footer-section{
+    width: 100%;
+    clear: both;
+    background-color: #ebebeb;
+ }
+
+ .inner-footer {
+    padding: 25px 0;
+    overflow: hidden;
+  }
+
+  .footer-left {
+    width: 65%;
+    float: left;
+    margin: 0;
+  }
+
+  .footer-right {
+    width: 35%;
+    float: right;
+    margin: 0;
+  }

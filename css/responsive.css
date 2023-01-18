@@ -1,0 +1,349 @@
+/* --tablet layout-- */
+@media only screen and (min-width:200px) and (max-width:950px) {
+    .mean-container .mean-nav ul li a {
+        text-align: center;
+        font-size: 16px;
+      }
+      .inner_top_header {
+        padding-top: 8px;
+      }
+
+      .nav-bar {
+        display: none;
+      }
+}
+
+/* --tablet layout 2-- */
+@media only screen and (min-width:200px) and (max-width:810px) {
+
+    .title-caption {
+        font-size: 16px;
+        transform: translate(-50%, -40%);
+      }
+
+      .second-left-caption {
+        font-size: 16px;
+      }
+
+      .bottom-text h1 {
+        font-size: 26px;
+      }
+
+      .bottom-text h5 {
+        font-size: 16px;
+        padding-right: 30px;
+        text-align: center;
+      }
+
+      .second-bottom button {
+        font-size: 18px;
+      }
+
+
+    }
+
+      /* --mobile layout-- */
+@media only screen and (min-width:200px) and (max-width:650px) {
+
+    .social_area {
+        float: none;
+        width: 100%;
+      }
+
+      .social_area ul {
+        margin: 0;
+        padding: 5px 0;
+        text-align: center;
+      }
+
+      .mini_menu {
+        padding-top: 0;
+        float: none;
+        width: 100%;
+      }
+
+      .mini_menu ul {
+        margin: 0;
+        padding: 8px;
+        list-style: none;
+        text-align: center;
+      }
+
+      .logo {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 24px;
+      }
+
+      .container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container-fluid {
+        padding: 0;
+        margin: 15px 0;
+      }
+
+      .d-block.w-100 {
+        height: 280px;
+      }
+
+      .innerSlider {
+        padding: 15px;
+          padding-bottom: 15px;
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        padding-bottom: 90px;
+      }
+
+      .inner-title {
+        overflow: hidden;
+        padding: 0;
+        margin-top: 55px;
+      }
+
+      .d-flex.form-content {
+        width: 100%;
+        padding: 0 100px;
+      }
+
+      #header-section {
+        padding-bottom: 26px;
+      }
+
+      .carousel-indicators [data-bs-target] {
+        width: 8px;
+        height: 8px;
+      }
+
+      .title-role {
+        margin-bottom: 0;
+      }
+
+      .child-title {
+        padding: 35px 0 55px 0;
+        column-count: unset;
+      }
+
+      .title-description {
+        display: block;
+      }
+
+      .title-description img {
+        width: 300px;
+        height: 200px;
+      }
+
+      .title-description {
+        display: block;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 25px;
+      }
+
+      .desc-text {
+        margin-left: 10px;
+        margin-top: 30px;
+      }
+
+      .wrapper {
+        display: block;
+      }
+
+      .second-wrapper {
+        width: 100%;
+        text-align: start;
+        position: relative;
+      }
+
+      .child-desc {
+        display: block;
+        text-align: center;
+      }
+
+      .child-desc {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .title-text {
+        margin-top: 25px;
+      }
+
+      .bottom-text h1 {
+        font-size: 20px;
+      }
+
+      .bottom-text h5 {
+        font-size: 14px;
+        padding-right: 30px;
+        text-align: start;
+      }
+
+      .second-bottom button {
+        font-size: 14px;
+      }
+
+      .second-bottom button {
+        padding: 12px 0px;
+      }
+
+      .second-bottom {
+        padding: 10px 12px;
+      }
+
+      .inner-details {
+        display: block;
+      }
+
+      .left-child-details {
+        width: 100%;
+      }
+
+      .details-info {
+        text-align: center;
+      }
+
+      .left-child-details {
+        text-align: center;
+      }
+
+      .role-info p {
+        padding: 0 10%;
+      }
+
+      .details-img {
+        width: 50%;
+        margin: 0 auto;
+        height: 200px;
+      }
+      .role-info h5 {
+        font-size: 16px;
+        margin-top: 16px;
+      }
+
+      .details-info {
+        margin-top: 60px;
+      }
+
+      .right-child-details {
+        width: 100%;
+        display: block;
+        background: #ddd;
+      }
+
+      .right-part {
+        width: 100%;
+        text-align: center;
+      }
+
+      .right-part {
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+      }
+
+      .desc-text p {
+        padding: 0 20%;
+      }
+
+      .title-text p {
+        margin-bottom: 10px;
+        padding: 0 3%;
+      }
+
+      .details-info {
+        margin-top: 60px;
+        display: block;
+      }
+
+      .right-child-details {
+        overflow: hidden;
+      }
+
+      .right-part {
+        margin-top: 60px;
+      }
+
+      .form-footer {
+        padding: 0 20%;
+      }
+
+      .form-footer {
+        padding: 0 20%;
+        margin-bottom: 30px;
+      }
+}
+
+      /* --mobile layout-- */
+      @media only screen and (min-width:200px) and (max-width:650px) {
+
+        .desc-text p {
+          padding: 0;
+        }
+
+        .second-bottom button {
+          font-size: 12px;
+        }
+
+        .bottom-text {
+          float: none;
+          width: 100%;
+        }
+
+        .second-bottom button {
+          font-size: 14px;
+          float: none;
+          width: 170px;
+        }
+
+        .second-bottom {
+          background: #97455f;
+          color: white;
+          border-radius: 10px;
+          padding: 18px 26px;
+          overflow: hidden;
+          text-align: center;
+        }
+
+        .bottom-text h5 {
+          text-align: center;
+        }
+
+        .bottom-text h5 {
+          font-size: 14px;
+          padding-right: 0;
+          text-align: center;
+          padding: 0 5%;
+        }
+
+        .form-footer button {
+          margin-top: 10px;
+        }
+
+        .footer-left {
+          width: 100%;
+          float: none;
+          margin: 0;
+          text-align: center;
+        }
+
+        .footer-right {
+          width: 100%;
+          float: none;
+          margin: 0;
+          text-align: center;
+          margin-top: 10px;
+        }
+
+        .details-img {
+          height: 150px;
+        }
+      }
